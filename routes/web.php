@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 
 Route::get('/store-data', [FirebaseController::class, 'storeDataInFirebase']);
+Route::get('/get-data', [FirebaseController::class, 'getData']);
